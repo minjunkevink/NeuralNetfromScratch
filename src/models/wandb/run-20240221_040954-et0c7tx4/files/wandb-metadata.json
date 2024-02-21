@@ -1,0 +1,147 @@
+{
+    "os": "Linux-6.5.0-18-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-02-21T12:09:59.918540",
+    "startedAt": "2024-02-21T12:09:54.271369",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "CNN.ipynb",
+    "codePathLocal": "CNN.ipynb",
+    "root": "/home/kjk/Documents/Workspace/NeuralNetfromScratch",
+    "git": {
+        "remote": "https://github.com/minjunkevink/NeuralNetfromScratch",
+        "commit": "1cd5f102525a5153a113ba5377fd803c91079700"
+    },
+    "email": "kimkj@usc.edu",
+    "host": "kjkomen",
+    "username": "kjk",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2102.7014,
+        "min": 400.0,
+        "max": 4180.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3603.937,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1369.471,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 3574.455,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4084.166,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 837.12,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4266.153,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3567.645,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3923.889,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 4155.417,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2904.681,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2129.058,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1742.606,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 3095.43,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 182.2811393737793,
+            "used": 33.99337387084961
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.28366470336914
+    }
+}
