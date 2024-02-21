@@ -1,8 +1,8 @@
 {
     "os": "Linux-6.5.0-18-generic-x86_64-with-glibc2.35",
     "python": "3.10.12",
-    "heartbeatAt": "2024-02-21T12:09:09.855783",
-    "startedAt": "2024-02-21T12:09:09.423054",
+    "heartbeatAt": "2024-02-21T19:22:35.815158",
+    "startedAt": "2024-02-21T19:22:22.715962",
     "docker": null,
     "cuda": null,
     "args": [],
@@ -12,7 +12,7 @@
     "root": "/home/kjk/Documents/Workspace/NeuralNetfromScratch",
     "git": {
         "remote": "https://github.com/minjunkevink/NeuralNetfromScratch",
-        "commit": "1cd5f102525a5153a113ba5377fd803c91079700"
+        "commit": "48b52a91cb227ec1c025d3fbae7080ebbf746313"
     },
     "email": "kimkj@usc.edu",
     "host": "kjkomen",
@@ -21,23 +21,13 @@
     "cpu_count": 14,
     "cpu_count_logical": 20,
     "cpu_freq": {
-        "current": 1234.38175,
+        "current": 1056.3686500000001,
         "min": 400.0,
         "max": 4180.0
     },
     "cpu_freq_per_core": [
         {
-            "current": 2945.827,
-            "min": 400.0,
-            "max": 4600.0
-        },
-        {
-            "current": 2232.714,
-            "min": 400.0,
-            "max": 4600.0
-        },
-        {
-            "current": 2827.682,
+            "current": 1754.006,
             "min": 400.0,
             "max": 4600.0
         },
@@ -47,72 +37,62 @@
             "max": 4600.0
         },
         {
-            "current": 2256.039,
-            "min": 400.0,
-            "max": 4700.0
-        },
-        {
-            "current": 2998.794,
-            "min": 400.0,
-            "max": 4700.0
-        },
-        {
-            "current": 3160.722,
-            "min": 400.0,
-            "max": 4700.0
-        },
-        {
-            "current": 2767.225,
-            "min": 400.0,
-            "max": 4700.0
-        },
-        {
-            "current": 2877.371,
+            "current": 1744.497,
             "min": 400.0,
             "max": 4600.0
+        },
+        {
+            "current": 1768.226,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1607.277,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1773.114,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1487.09,
+            "min": 400.0,
+            "max": 4700.0
         },
         {
             "current": 400.0,
             "min": 400.0,
-            "max": 4600.0
+            "max": 4700.0
         },
         {
-            "current": 2551.421,
+            "current": 1717.298,
             "min": 400.0,
             "max": 4600.0
         },
         {
-            "current": 2466.077,
+            "current": 1022.773,
             "min": 400.0,
             "max": 4600.0
         },
         {
-            "current": 2048.228,
+            "current": 1567.307,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1298.039,
+            "min": 400.0,
+            "max": 4600.0
+        },
+        {
+            "current": 435.091,
             "min": 400.0,
             "max": 3500.0
         },
         {
-            "current": 2274.509,
-            "min": 400.0,
-            "max": 3500.0
-        },
-        {
-            "current": 1924.123,
-            "min": 400.0,
-            "max": 3500.0
-        },
-        {
-            "current": 1728.934,
-            "min": 400.0,
-            "max": 3500.0
-        },
-        {
-            "current": 400.0,
-            "min": 400.0,
-            "max": 3500.0
-        },
-        {
-            "current": 708.259,
+            "current": 431.414,
             "min": 400.0,
             "max": 3500.0
         },
@@ -122,7 +102,27 @@
             "max": 3500.0
         },
         {
-            "current": 399.872,
+            "current": 400.0,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 632.612,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 812.674,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2006.465,
+            "min": 400.0,
+            "max": 3500.0
+        },
+        {
+            "current": 400.0,
             "min": 400.0,
             "max": 3500.0
         }
@@ -130,7 +130,7 @@
     "disk": {
         "/": {
             "total": 182.2811393737793,
-            "used": 33.97031784057617
+            "used": 34.09724807739258
         }
     },
     "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
@@ -142,6 +142,6 @@
         }
     ],
     "memory": {
-        "total": 15.28366470336914
+        "total": 15.28365707397461
     }
 }

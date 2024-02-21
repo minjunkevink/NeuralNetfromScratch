@@ -1,0 +1,267 @@
+2024-02-21 11:22:35,333 INFO    StreamThr :6776 [internal.py:wandb_internal():86] W&B internal server running at pid: 6776, started at: 2024-02-21 11:22:35.332477
+2024-02-21 11:22:35,335 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status
+2024-02-21 11:22:35,338 INFO    WriterThread:6776 [datastore.py:open_for_write():87] open: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/run-t8ldsynw.wandb
+2024-02-21 11:22:35,339 DEBUG   SenderThread:6776 [sender.py:send():382] send: header
+2024-02-21 11:22:35,339 DEBUG   SenderThread:6776 [sender.py:send():382] send: run
+2024-02-21 11:22:35,686 INFO    SenderThread:6776 [dir_watcher.py:__init__():211] watching files in: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files
+2024-02-21 11:22:35,686 INFO    SenderThread:6776 [sender.py:_start_run_threads():1136] run started: t8ldsynw with start time 1708543354.454758
+2024-02-21 11:22:35,695 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: check_version
+2024-02-21 11:22:35,695 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: check_version
+2024-02-21 11:22:35,801 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: run_start
+2024-02-21 11:22:35,801 DEBUG   HandlerThread:6776 [system_info.py:__init__():27] System info init
+2024-02-21 11:22:35,801 DEBUG   HandlerThread:6776 [system_info.py:__init__():42] System info init done
+2024-02-21 11:22:35,801 INFO    HandlerThread:6776 [system_monitor.py:start():194] Starting system monitor
+2024-02-21 11:22:35,802 INFO    SystemMonitor:6776 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-21 11:22:35,802 INFO    SystemMonitor:6776 [interfaces.py:start():190] Started cpu monitoring
+2024-02-21 11:22:35,803 INFO    HandlerThread:6776 [system_monitor.py:probe():214] Collecting system info
+2024-02-21 11:22:35,803 INFO    SystemMonitor:6776 [interfaces.py:start():190] Started disk monitoring
+2024-02-21 11:22:35,804 INFO    SystemMonitor:6776 [interfaces.py:start():190] Started gpu monitoring
+2024-02-21 11:22:35,805 INFO    SystemMonitor:6776 [interfaces.py:start():190] Started memory monitoring
+2024-02-21 11:22:35,806 INFO    SystemMonitor:6776 [interfaces.py:start():190] Started network monitoring
+2024-02-21 11:22:35,815 DEBUG   HandlerThread:6776 [system_info.py:probe():151] Probing system
+2024-02-21 11:22:35,815 DEBUG   HandlerThread:6776 [system_info.py:_probe_git():136] Probing git
+2024-02-21 11:22:35,820 DEBUG   HandlerThread:6776 [system_info.py:_probe_git():144] Probing git done
+2024-02-21 11:22:35,820 DEBUG   HandlerThread:6776 [system_info.py:probe():199] Probing system done
+2024-02-21 11:22:35,820 DEBUG   HandlerThread:6776 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-18-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-02-21T19:22:35.815158', 'startedAt': '2024-02-21T19:22:22.715962', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'CNN.ipynb', 'codePathLocal': 'CNN.ipynb', 'root': '/home/kjk/Documents/Workspace/NeuralNetfromScratch', 'git': {'remote': 'https://github.com/minjunkevink/NeuralNetfromScratch', 'commit': '48b52a91cb227ec1c025d3fbae7080ebbf746313'}, 'email': 'kimkj@usc.edu', 'host': 'kjkomen', 'username': 'kjk', 'executable': '/usr/bin/python3', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 1056.3686500000001, 'min': 400.0, 'max': 4180.0}, 'cpu_freq_per_core': [{'current': 1754.006, 'min': 400.0, 'max': 4600.0}, {'current': 400.0, 'min': 400.0, 'max': 4600.0}, {'current': 1744.497, 'min': 400.0, 'max': 4600.0}, {'current': 1768.226, 'min': 400.0, 'max': 4600.0}, {'current': 1607.277, 'min': 400.0, 'max': 4700.0}, {'current': 1773.114, 'min': 400.0, 'max': 4700.0}, {'current': 1487.09, 'min': 400.0, 'max': 4700.0}, {'current': 400.0, 'min': 400.0, 'max': 4700.0}, {'current': 1717.298, 'min': 400.0, 'max': 4600.0}, {'current': 1022.773, 'min': 400.0, 'max': 4600.0}, {'current': 1567.307, 'min': 400.0, 'max': 4600.0}, {'current': 1298.039, 'min': 400.0, 'max': 4600.0}, {'current': 435.091, 'min': 400.0, 'max': 3500.0}, {'current': 431.414, 'min': 400.0, 'max': 3500.0}, {'current': 400.0, 'min': 400.0, 'max': 3500.0}, {'current': 400.0, 'min': 400.0, 'max': 3500.0}, {'current': 632.612, 'min': 400.0, 'max': 3500.0}, {'current': 812.674, 'min': 400.0, 'max': 3500.0}, {'current': 2006.465, 'min': 400.0, 'max': 3500.0}, {'current': 400.0, 'min': 400.0, 'max': 3500.0}], 'disk': {'/': {'total': 182.2811393737793, 'used': 34.09724807739258}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.28365707397461}}
+2024-02-21 11:22:35,820 INFO    HandlerThread:6776 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-21 11:22:35,820 INFO    HandlerThread:6776 [system_monitor.py:probe():227] Publishing system info
+2024-02-21 11:22:35,821 INFO    HandlerThread:6776 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-21 11:22:35,821 DEBUG   SenderThread:6776 [sender.py:send():382] send: files
+2024-02-21 11:22:35,821 INFO    SenderThread:6776 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-21 11:22:35,831 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-21 11:22:35,831 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: python_packages
+2024-02-21 11:22:35,874 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:22:35,875 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:22:35,875 DEBUG   SenderThread:6776 [sender.py:send():382] send: telemetry
+2024-02-21 11:22:35,876 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:22:36,203 INFO    wandb-upload_0:6776 [upload_job.py:push():131] Uploaded file /tmp/tmpy305g77cwandb/3255zxps-wandb-metadata.json
+2024-02-21 11:22:36,687 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/wandb-metadata.json
+2024-02-21 11:22:36,687 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/output.log
+2024-02-21 11:22:36,687 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/requirements.txt
+2024-02-21 11:22:38,687 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/output.log
+2024-02-21 11:22:39,687 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/output.log
+2024-02-21 11:22:40,688 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/output.log
+2024-02-21 11:22:40,699 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:22:41,689 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/output.log
+2024-02-21 11:22:45,701 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:22:50,702 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:22:50,832 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:22:50,833 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:22:50,834 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:22:56,144 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:01,146 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:05,834 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:23:05,837 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:23:05,839 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:23:06,996 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:07,707 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/config.yaml
+2024-02-21 11:23:12,248 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:17,249 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:20,835 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:23:20,837 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:23:20,838 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:23:23,042 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:28,044 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:33,045 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:35,807 DEBUG   SystemMonitor:6776 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-21 11:23:35,810 DEBUG   SenderThread:6776 [sender.py:send():382] send: stats
+2024-02-21 11:23:35,833 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:23:35,834 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:23:35,875 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:23:38,927 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:43,928 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:48,930 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:50,834 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:23:50,836 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:23:50,875 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:23:54,147 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:23:59,148 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:04,150 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:05,812 DEBUG   SenderThread:6776 [sender.py:send():382] send: stats
+2024-02-21 11:24:05,834 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:24:05,835 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:24:05,875 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:24:10,010 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:15,011 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:20,013 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:20,834 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:24:20,834 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:24:20,874 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:24:26,007 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:31,008 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:35,814 DEBUG   SenderThread:6776 [sender.py:send():382] send: stats
+2024-02-21 11:24:35,835 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:24:35,836 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:24:35,879 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:24:36,100 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:41,099 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:46,100 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:50,835 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:24:50,836 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:24:50,837 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:24:52,046 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:24:57,048 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:02,049 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:05,816 DEBUG   SenderThread:6776 [sender.py:send():382] send: stats
+2024-02-21 11:25:05,835 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:25:05,835 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:25:05,836 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:25:08,001 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:13,003 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:18,004 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:20,835 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:25:20,836 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:25:20,837 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:25:23,990 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:28,992 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:33,993 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:35,817 DEBUG   SenderThread:6776 [sender.py:send():382] send: stats
+2024-02-21 11:25:35,835 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:25:35,835 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:25:35,836 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:25:39,019 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:44,021 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:49,023 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:50,835 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-21 11:25:50,836 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: stop_status
+2024-02-21 11:25:50,879 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:25:54,157 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:54,713 DEBUG   SenderThread:6776 [sender.py:send():382] send: telemetry
+2024-02-21 11:25:54,755 DEBUG   SenderThread:6776 [sender.py:send():382] send: exit
+2024-02-21 11:25:54,755 INFO    SenderThread:6776 [sender.py:send_exit():589] handling exit code: 0
+2024-02-21 11:25:54,755 INFO    SenderThread:6776 [sender.py:send_exit():591] handling runtime: 198
+2024-02-21 11:25:54,755 INFO    SenderThread:6776 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 11:25:54,755 INFO    SenderThread:6776 [sender.py:send_exit():597] send defer
+2024-02-21 11:25:54,756 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:54,756 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-21 11:25:54,757 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:54,757 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-21 11:25:54,757 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 1
+2024-02-21 11:25:54,757 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:54,757 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-21 11:25:54,757 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:54,757 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-21 11:25:54,757 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 2
+2024-02-21 11:25:54,758 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:54,758 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-21 11:25:54,758 INFO    HandlerThread:6776 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-21 11:25:54,758 INFO    HandlerThread:6776 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-21 11:25:54,758 INFO    HandlerThread:6776 [interfaces.py:finish():202] Joined disk monitor
+2024-02-21 11:25:54,759 DEBUG   SystemMonitor:6776 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-21 11:25:54,759 DEBUG   SystemMonitor:6776 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-21 11:25:54,783 INFO    HandlerThread:6776 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-21 11:25:54,783 INFO    HandlerThread:6776 [interfaces.py:finish():202] Joined memory monitor
+2024-02-21 11:25:54,783 INFO    HandlerThread:6776 [interfaces.py:finish():202] Joined network monitor
+2024-02-21 11:25:54,784 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:54,784 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-21 11:25:54,784 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 3
+2024-02-21 11:25:54,784 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:54,784 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-21 11:25:54,784 DEBUG   SenderThread:6776 [sender.py:send():382] send: stats
+2024-02-21 11:25:54,784 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:54,784 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-21 11:25:54,784 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 4
+2024-02-21 11:25:54,784 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:54,784 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-21 11:25:54,785 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:54,785 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-21 11:25:54,785 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 5
+2024-02-21 11:25:54,785 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:54,785 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-21 11:25:54,785 DEBUG   SenderThread:6776 [sender.py:send():382] send: summary
+2024-02-21 11:25:54,785 INFO    SenderThread:6776 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-21 11:25:54,785 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:54,785 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-21 11:25:54,785 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 6
+2024-02-21 11:25:54,785 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:54,786 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-21 11:25:54,786 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:54,786 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-21 11:25:54,787 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: status_report
+2024-02-21 11:25:54,811 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/wandb-summary.json
+2024-02-21 11:25:54,898 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 7
+2024-02-21 11:25:54,898 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:54,898 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-21 11:25:54,899 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:54,899 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-21 11:25:55,715 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 11:25:55,812 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/config.yaml
+2024-02-21 11:25:57,116 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 8
+2024-02-21 11:25:57,116 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 11:25:57,116 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:57,117 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-21 11:25:57,117 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:57,117 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-21 11:25:57,118 INFO    SenderThread:6776 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-21 11:25:57,118 INFO    SenderThread:6776 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-21 11:25:57,118 INFO    SenderThread:6776 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-02-21 11:25:57,118 INFO    SenderThread:6776 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-21 11:25:57,128 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 9
+2024-02-21 11:25:57,129 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:57,129 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-21 11:25:57,129 DEBUG   SenderThread:6776 [sender.py:send():382] send: artifact
+2024-02-21 11:25:57,716 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 11:25:57,807 INFO    SenderThread:6776 [sender.py:send_artifact():1494] sent artifact job-https___github.com_minjunkevink_NeuralNetfromScratch_CNN.ipynb - {'id': 'QXJ0aWZhY3Q6NzI4MDg4Mzg1', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTcyMzkyNw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzI4MDg4Mzg1', 'versionIndex': 1}}}
+2024-02-21 11:25:57,807 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:57,807 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-21 11:25:57,807 INFO    SenderThread:6776 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-21 11:25:57,813 INFO    Thread-26 :6776 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/output.log
+2024-02-21 11:25:57,814 INFO    SenderThread:6776 [dir_watcher.py:finish():388] scan: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files
+2024-02-21 11:25:57,814 INFO    SenderThread:6776 [dir_watcher.py:finish():402] scan save: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/requirements.txt requirements.txt
+2024-02-21 11:25:57,814 INFO    SenderThread:6776 [dir_watcher.py:finish():402] scan save: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/config.yaml config.yaml
+2024-02-21 11:25:57,815 INFO    SenderThread:6776 [dir_watcher.py:finish():402] scan save: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/output.log output.log
+2024-02-21 11:25:57,815 INFO    SenderThread:6776 [dir_watcher.py:finish():402] scan save: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/wandb-metadata.json wandb-metadata.json
+2024-02-21 11:25:57,815 INFO    SenderThread:6776 [dir_watcher.py:finish():402] scan save: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/wandb-summary.json wandb-summary.json
+2024-02-21 11:25:57,815 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 10
+2024-02-21 11:25:57,815 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 11:25:57,827 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:57,827 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-21 11:25:57,828 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:57,828 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-21 11:25:57,828 INFO    SenderThread:6776 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-21 11:25:58,129 INFO    wandb-upload_0:6776 [upload_job.py:push():131] Uploaded file /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/requirements.txt
+2024-02-21 11:25:58,145 INFO    wandb-upload_1:6776 [upload_job.py:push():131] Uploaded file /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/config.yaml
+2024-02-21 11:25:58,209 INFO    wandb-upload_3:6776 [upload_job.py:push():131] Uploaded file /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/wandb-summary.json
+2024-02-21 11:25:58,213 INFO    wandb-upload_2:6776 [upload_job.py:push():131] Uploaded file /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/files/output.log
+2024-02-21 11:25:58,414 INFO    Thread-25 (_thread_body):6776 [sender.py:transition_state():617] send defer: 11
+2024-02-21 11:25:58,416 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:58,416 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-21 11:25:58,417 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:58,417 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-21 11:25:58,417 INFO    SenderThread:6776 [file_pusher.py:join():178] waiting for file pusher
+2024-02-21 11:25:58,418 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 12
+2024-02-21 11:25:58,418 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:58,418 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-21 11:25:58,419 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:58,419 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-21 11:25:58,419 INFO    SenderThread:6776 [file_stream.py:finish():595] file stream finish called
+2024-02-21 11:25:58,723 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 11:25:58,792 INFO    SenderThread:6776 [file_stream.py:finish():599] file stream finish is done
+2024-02-21 11:25:58,792 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 13
+2024-02-21 11:25:58,793 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 11:25:58,793 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:58,794 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-21 11:25:58,794 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:58,794 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-21 11:25:58,795 INFO    SenderThread:6776 [sender.py:transition_state():617] send defer: 14
+2024-02-21 11:25:58,795 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: defer
+2024-02-21 11:25:58,795 INFO    HandlerThread:6776 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-21 11:25:58,796 DEBUG   SenderThread:6776 [sender.py:send():382] send: final
+2024-02-21 11:25:58,796 DEBUG   SenderThread:6776 [sender.py:send():382] send: footer
+2024-02-21 11:25:58,796 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: defer
+2024-02-21 11:25:58,796 INFO    SenderThread:6776 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-21 11:25:58,798 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-21 11:25:58,798 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: poll_exit
+2024-02-21 11:25:58,800 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-21 11:25:58,802 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: server_info
+2024-02-21 11:25:58,802 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: server_info
+2024-02-21 11:25:58,843 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-21 11:25:58,844 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-21 11:25:58,844 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: job_info
+2024-02-21 11:25:58,887 DEBUG   SenderThread:6776 [sender.py:send_request():409] send_request: job_info
+2024-02-21 11:25:58,888 DEBUG   HandlerThread:6776 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-21 11:25:58,888 INFO    HandlerThread:6776 [handler.py:finish():869] shutting down handler
+2024-02-21 11:25:59,845 INFO    WriterThread:6776 [datastore.py:close():296] close: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240221_112222-t8ldsynw/run-t8ldsynw.wandb
+2024-02-21 11:25:59,887 INFO    SenderThread:6776 [sender.py:finish():1572] shutting down sender
+2024-02-21 11:25:59,887 INFO    SenderThread:6776 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-21 11:25:59,888 INFO    SenderThread:6776 [file_pusher.py:join():178] waiting for file pusher
