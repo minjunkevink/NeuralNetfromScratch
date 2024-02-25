@@ -1,0 +1,74 @@
+/home/kjk/.local/lib/python3.10/site-packages/torch/nn/modules/lazy.py:181: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+epoch 2, loss 5.413
+epoch 4, loss 1.123
+epoch 6, loss 0.276
+epoch 8, loss 0.082
+epoch 10, loss 0.029
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+/home/kjk/.local/lib/python3.10/site-packages/torch/nn/modules/lazy.py:181: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+epoch 2, loss 2.758
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+/home/kjk/.local/lib/python3.10/site-packages/torch/nn/modules/lazy.py:181: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+epoch 2, loss 5.063
+epoch 4, loss 0.982
+epoch 6, loss 0.219
+epoch 8, loss 0.059
+epoch 10, loss 0.019
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+epoch 2, loss 10.639
+epoch 4, loss 1.785
+epoch 6, loss 0.300
+epoch 8, loss 0.050
+epoch 10, loss 0.008
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+epoch 2, loss 19.493
+epoch 4, loss 6.939
+epoch 6, loss 2.667
+epoch 8, loss 1.063
+epoch 10, loss 0.430
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)

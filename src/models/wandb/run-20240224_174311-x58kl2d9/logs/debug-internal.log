@@ -1,0 +1,792 @@
+2024-02-24 17:43:14,982 INFO    StreamThr :16326 [internal.py:wandb_internal():86] W&B internal server running at pid: 16326, started at: 2024-02-24 17:43:14.982189
+2024-02-24 17:43:14,984 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status
+2024-02-24 17:43:14,986 INFO    WriterThread:16326 [datastore.py:open_for_write():87] open: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/run-x58kl2d9.wandb
+2024-02-24 17:43:14,986 DEBUG   SenderThread:16326 [sender.py:send():382] send: header
+2024-02-24 17:43:14,986 DEBUG   SenderThread:16326 [sender.py:send():382] send: run
+2024-02-24 17:43:15,206 INFO    SenderThread:16326 [dir_watcher.py:__init__():211] watching files in: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files
+2024-02-24 17:43:15,206 INFO    SenderThread:16326 [sender.py:_start_run_threads():1136] run started: x58kl2d9 with start time 1708825394.112234
+2024-02-24 17:43:15,214 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: check_version
+2024-02-24 17:43:15,215 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: check_version
+2024-02-24 17:43:15,287 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: run_start
+2024-02-24 17:43:15,287 DEBUG   HandlerThread:16326 [system_info.py:__init__():27] System info init
+2024-02-24 17:43:15,287 DEBUG   HandlerThread:16326 [system_info.py:__init__():42] System info init done
+2024-02-24 17:43:15,287 INFO    HandlerThread:16326 [system_monitor.py:start():194] Starting system monitor
+2024-02-24 17:43:15,288 INFO    SystemMonitor:16326 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-24 17:43:15,288 INFO    HandlerThread:16326 [system_monitor.py:probe():214] Collecting system info
+2024-02-24 17:43:15,288 INFO    SystemMonitor:16326 [interfaces.py:start():190] Started cpu monitoring
+2024-02-24 17:43:15,288 INFO    SystemMonitor:16326 [interfaces.py:start():190] Started disk monitoring
+2024-02-24 17:43:15,290 INFO    SystemMonitor:16326 [interfaces.py:start():190] Started gpu monitoring
+2024-02-24 17:43:15,291 INFO    SystemMonitor:16326 [interfaces.py:start():190] Started memory monitoring
+2024-02-24 17:43:15,292 INFO    SystemMonitor:16326 [interfaces.py:start():190] Started network monitoring
+2024-02-24 17:43:15,298 DEBUG   HandlerThread:16326 [system_info.py:probe():151] Probing system
+2024-02-24 17:43:15,298 DEBUG   HandlerThread:16326 [system_info.py:_probe_git():136] Probing git
+2024-02-24 17:43:15,301 DEBUG   HandlerThread:16326 [system_info.py:_probe_git():144] Probing git done
+2024-02-24 17:43:15,301 DEBUG   HandlerThread:16326 [system_info.py:probe():199] Probing system done
+2024-02-24 17:43:15,301 DEBUG   HandlerThread:16326 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-18-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-02-25T01:43:15.298428', 'startedAt': '2024-02-25T01:43:11.844739', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/minjunkevink/NeuralNetfromScratch', 'commit': 'f946e254fe905a2a02d830a9aaa4e04fb857b336'}, 'email': 'kimkj@usc.edu', 'root': '/home/kjk/Documents/Workspace/NeuralNetfromScratch', 'host': 'kjkomen', 'username': 'kjk', 'executable': '/bin/python3', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2410.0866499999993, 'min': 400.0, 'max': 4180.0}, 'cpu_freq_per_core': [{'current': 3882.213, 'min': 400.0, 'max': 4600.0}, {'current': 3767.078, 'min': 400.0, 'max': 4600.0}, {'current': 3846.204, 'min': 400.0, 'max': 4600.0}, {'current': 400.0, 'min': 400.0, 'max': 4600.0}, {'current': 2076.041, 'min': 400.0, 'max': 4700.0}, {'current': 1730.125, 'min': 400.0, 'max': 4700.0}, {'current': 1184.778, 'min': 400.0, 'max': 4700.0}, {'current': 3364.637, 'min': 400.0, 'max': 4700.0}, {'current': 2680.036, 'min': 400.0, 'max': 4600.0}, {'current': 3234.249, 'min': 400.0, 'max': 4600.0}, {'current': 4001.642, 'min': 400.0, 'max': 4600.0}, {'current': 3268.732, 'min': 400.0, 'max': 4600.0}, {'current': 2549.475, 'min': 400.0, 'max': 3500.0}, {'current': 2619.017, 'min': 400.0, 'max': 3500.0}, {'current': 2283.988, 'min': 400.0, 'max': 3500.0}, {'current': 2711.441, 'min': 400.0, 'max': 3500.0}, {'current': 1297.818, 'min': 400.0, 'max': 3500.0}, {'current': 400.0, 'min': 400.0, 'max': 3500.0}, {'current': 400.0, 'min': 400.0, 'max': 3500.0}, {'current': 400.0, 'min': 400.0, 'max': 3500.0}], 'disk': {'/': {'total': 182.2811393737793, 'used': 34.53517150878906}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.28366470336914}}
+2024-02-24 17:43:15,302 INFO    HandlerThread:16326 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-24 17:43:15,302 INFO    HandlerThread:16326 [system_monitor.py:probe():227] Publishing system info
+2024-02-24 17:43:15,302 INFO    HandlerThread:16326 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-24 17:43:15,302 DEBUG   SenderThread:16326 [sender.py:send():382] send: files
+2024-02-24 17:43:15,302 INFO    SenderThread:16326 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-24 17:43:15,309 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-24 17:43:15,309 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: python_packages
+2024-02-24 17:43:15,355 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:43:15,355 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:43:15,356 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:43:15,549 DEBUG   SenderThread:16326 [sender.py:send():382] send: telemetry
+2024-02-24 17:43:15,627 DEBUG   SenderThread:16326 [sender.py:send():382] send: telemetry
+2024-02-24 17:43:15,682 INFO    wandb-upload_0:16326 [upload_job.py:push():131] Uploaded file /tmp/tmpuj2ies83wandb/x1bw8qwf-wandb-metadata.json
+2024-02-24 17:43:16,208 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/requirements.txt
+2024-02-24 17:43:16,209 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:43:16,209 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_created():271] file/dir created: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/wandb-metadata.json
+2024-02-24 17:43:18,208 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:43:20,628 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:43:25,629 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:43:30,309 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:43:30,310 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:43:30,310 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:43:31,490 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:43:36,491 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:43:41,493 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:43:45,309 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:43:45,310 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:43:45,351 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:43:47,397 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:43:48,220 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/config.yaml
+2024-02-24 17:43:52,503 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:43:57,504 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:00,311 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:44:00,311 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:44:00,311 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:44:02,648 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:07,649 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:12,650 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:15,292 DEBUG   SystemMonitor:16326 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-24 17:44:15,294 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:44:15,310 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:44:15,311 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:44:15,351 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:44:15,367 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:44:18,232 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:44:18,465 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:23,466 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:27,718 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:44:28,719 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:30,238 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:44:30,310 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:44:30,311 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:44:30,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:44:34,449 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:39,450 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:39,720 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:44:42,244 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:44:44,722 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:45,294 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:44:45,310 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:44:45,311 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:44:45,311 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:44:50,443 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:55,356 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:44:56,358 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:44:58,252 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:45:00,311 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:45:00,312 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:45:00,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:45:01,478 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:06,479 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:07,761 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:45:10,257 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:45:11,763 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:15,295 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:45:15,311 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:45:15,312 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:45:15,312 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:45:17,423 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:22,424 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:25,352 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:45:28,266 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:45:28,354 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:30,311 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:45:30,311 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:45:30,313 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:45:34,098 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:37,791 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:45:39,794 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:40,272 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:45:44,795 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:45,296 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:45:45,311 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:45:45,312 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:45:45,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:45:50,490 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:53,816 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:45:54,278 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:45:55,817 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:45:56,279 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:46:00,312 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:46:00,313 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:46:00,313 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:46:01,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:05,819 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:46:06,820 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:08,286 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:46:11,821 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:15,296 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:46:15,311 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:46:15,311 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:46:15,313 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:46:17,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:22,487 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:25,371 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:46:28,296 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:46:28,373 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:30,311 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:46:30,312 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:46:30,313 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:46:33,770 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:37,857 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:46:38,859 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:40,301 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:46:43,859 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:45,299 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:46:45,312 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:46:45,313 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:46:45,313 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:46:49,466 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:54,467 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:46:55,362 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:46:56,308 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:47:00,312 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:47:00,313 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:47:00,313 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:47:01,866 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:05,899 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:47:06,901 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:08,315 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:47:11,902 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:15,299 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:47:15,312 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:47:15,313 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:47:15,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:47:17,481 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:22,482 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:25,358 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:47:26,323 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:47:28,360 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:30,312 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:47:30,313 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:47:30,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:47:33,395 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:35,915 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:47:38,328 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:47:38,918 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:43,919 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:45,301 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:47:45,313 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:47:45,314 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:47:45,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:47:49,491 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:54,492 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:47:55,365 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:47:56,337 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:48:00,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:48:00,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:48:00,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:00,315 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:48:05,492 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:05,949 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:48:08,343 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:48:10,952 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:15,302 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:48:15,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:48:15,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:48:15,315 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:48:16,483 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:21,484 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:26,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:30,315 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:48:30,315 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:48:30,316 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:48:32,482 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:37,483 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:42,484 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:45,302 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:48:45,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:48:45,314 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:48:45,359 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:48:45,369 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:48:46,360 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:48:47,607 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:50,362 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:48:52,611 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:48:57,613 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:00,313 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:49:00,314 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:49:00,315 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:49:03,483 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:08,484 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:13,485 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:15,303 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:49:15,315 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:49:15,315 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:49:15,316 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:49:15,380 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:49:16,373 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:49:18,374 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:49:18,638 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:23,640 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:28,641 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:30,315 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:49:30,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:49:30,316 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:49:34,488 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:39,489 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:44,491 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:45,304 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:49:45,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:49:45,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:49:45,317 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:49:45,363 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:49:46,389 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:49:49,495 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:54,496 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:49:59,497 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:00,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:50:00,315 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:50:00,315 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:50:05,335 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:06,400 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:50:10,336 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:15,304 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:50:15,314 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:50:15,315 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:50:15,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:50:15,398 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:20,399 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:25,400 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:30,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:50:30,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:50:30,317 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:50:31,399 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:36,400 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:41,401 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:45,308 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:50:45,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:50:45,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:50:45,317 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:50:45,364 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:50:46,419 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:50:46,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:51,487 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:50:56,488 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:00,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:51:00,317 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:51:00,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:51:02,484 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:07,485 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:12,487 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:15,307 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:51:15,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:51:15,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:51:15,317 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:51:15,373 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:51:16,434 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:51:17,491 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:22,492 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:27,493 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:30,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:51:30,317 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:51:30,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:51:33,430 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:38,431 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:43,432 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:45,308 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:51:45,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:51:45,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:51:45,317 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:51:45,383 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:51:46,448 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:51:48,493 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:53,495 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:51:58,495 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:00,316 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:52:00,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:52:00,318 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:52:04,409 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:09,410 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:14,411 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:15,309 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:52:15,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:52:15,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:52:15,318 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:52:15,377 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:52:16,463 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:52:19,429 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:24,431 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:29,432 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:30,318 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:52:30,318 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:52:30,319 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:52:35,423 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:40,424 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:45,310 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:52:45,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:52:45,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:52:45,318 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:52:45,369 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:52:45,484 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:46,479 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:52:50,485 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:52:55,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:00,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:53:00,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:53:00,318 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:53:01,434 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:06,435 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:11,437 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:15,311 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:53:15,318 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:53:15,318 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:53:15,359 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:53:15,369 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:53:16,471 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:16,495 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:53:21,472 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:26,473 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:30,317 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:53:30,317 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:53:30,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:53:32,446 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:37,447 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:42,448 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:45,313 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:53:45,318 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:53:45,318 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:53:45,319 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:53:45,379 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:53:46,509 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:53:47,480 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:52,482 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:53:57,483 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:00,318 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:54:00,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:54:00,320 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:54:02,485 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:07,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:12,488 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:15,314 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:54:15,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:54:15,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:54:15,319 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:54:15,372 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:54:16,524 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:54:18,466 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:23,468 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:28,469 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:30,318 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:54:30,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:54:30,320 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:54:34,400 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:39,401 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:44,403 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:45,315 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:54:45,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:54:45,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:54:45,320 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:54:45,379 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:54:46,540 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:54:49,485 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:54,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:54:59,487 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:00,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:55:00,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:55:00,320 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:55:05,451 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:10,452 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:15,315 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:55:15,318 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:55:15,318 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:55:15,359 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:55:15,495 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:20,497 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:25,498 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:30,320 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:55:30,320 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:55:30,320 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:55:31,482 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:36,483 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:41,485 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:45,318 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:55:45,321 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:55:45,321 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:55:45,321 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:55:45,374 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:55:46,571 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:55:47,413 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:52,414 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:55:57,416 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:00,320 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:56:00,320 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:56:00,321 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:56:03,388 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:08,390 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:13,391 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:15,317 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:56:15,319 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:56:15,320 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:56:15,320 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:56:15,381 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:56:16,587 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:56:18,469 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:23,471 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:28,473 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:30,320 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:56:30,320 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:56:30,321 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:56:33,499 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:38,501 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:43,502 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:45,318 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:56:45,322 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:56:45,322 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:56:45,323 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:56:45,384 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:56:46,604 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:56:49,450 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:54,452 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:56:59,453 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:00,320 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:57:00,321 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:57:00,321 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:57:05,436 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:10,437 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:15,320 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:57:15,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:57:15,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:57:15,325 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:57:15,386 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:57:15,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:16,620 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:57:20,488 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:25,489 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:30,321 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:57:30,321 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:57:30,322 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:57:30,489 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:35,491 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:40,492 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:45,321 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:57:45,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:57:45,329 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:57:45,330 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:57:45,389 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:57:46,476 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:46,635 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:57:51,477 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:57:56,479 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:00,321 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:58:00,321 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:58:00,322 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:58:02,445 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:07,447 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:12,448 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:15,322 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:58:15,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:58:15,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:58:15,326 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:58:15,390 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:58:16,651 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:58:17,484 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:22,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:27,487 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:30,321 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:58:30,322 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:58:30,323 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:58:33,471 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:38,473 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:43,474 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:45,323 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:58:45,323 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:58:45,324 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:58:45,326 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:58:45,391 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:58:46,667 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:58:49,459 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:54,461 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:58:59,462 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:00,322 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:59:00,322 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:59:00,323 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:59:04,597 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:09,599 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:14,600 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:15,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:59:15,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:59:15,325 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:59:15,326 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:59:15,387 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:59:16,683 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:59:20,468 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:25,469 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:30,322 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:59:30,323 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:59:30,323 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:59:31,391 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:36,392 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:41,394 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:45,323 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 17:59:45,323 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 17:59:45,325 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 17:59:45,441 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 17:59:45,509 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 17:59:46,512 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:46,698 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 17:59:51,513 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 17:59:56,515 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:00,322 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:00:00,323 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:00:00,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:00:01,890 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:06,891 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:11,892 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:15,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:00:15,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:00:15,324 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:00:15,500 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:00:15,560 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:00:16,713 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:00:17,562 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:22,564 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:27,565 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:30,323 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:00:30,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:00:30,325 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:00:33,015 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:38,017 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:43,018 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:45,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:00:45,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:00:45,325 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:00:45,456 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:00:48,458 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:53,459 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:00:58,461 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:00,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:01:00,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:01:00,325 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:01:03,567 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:08,568 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:13,569 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:15,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:01:15,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:01:15,325 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:01:15,422 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:01:15,482 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:01:17,746 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:01:19,485 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:24,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:29,488 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:30,324 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:01:30,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:01:30,326 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:01:34,731 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:39,733 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:44,734 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:45,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:01:45,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:01:45,326 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:01:45,485 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:01:45,552 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:01:47,763 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:01:50,555 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:01:55,556 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:00,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:02:00,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:02:00,326 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:02:01,439 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:06,440 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:11,441 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:15,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:02:15,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:02:15,327 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:02:15,428 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:02:17,429 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:22,431 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:27,432 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:30,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:02:30,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:02:30,327 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:02:32,527 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:37,528 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:42,529 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:45,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:02:45,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:02:45,327 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:02:45,433 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:02:45,491 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:02:47,795 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:02:48,493 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:53,495 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:02:58,496 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:00,325 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:03:00,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:03:00,327 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:03:03,512 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:08,514 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:13,515 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:15,327 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:03:15,327 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:03:15,328 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:03:15,452 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:03:15,522 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:03:17,811 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:03:18,525 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:23,527 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:28,528 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:30,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:03:30,327 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:03:30,328 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:03:34,493 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:39,495 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:44,496 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:45,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:03:45,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:03:45,326 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:03:45,489 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:03:45,551 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:03:47,825 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:03:49,553 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:54,554 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:03:59,555 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:00,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:04:00,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:04:00,326 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:04:05,397 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:10,399 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:15,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:04:15,327 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:04:15,367 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:04:15,497 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:04:15,498 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:15,565 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:04:17,839 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:04:20,567 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:25,569 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:30,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:04:30,326 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:04:30,327 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:04:31,439 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:36,440 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:41,441 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:45,328 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:04:45,329 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:04:45,329 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:04:45,493 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:04:46,494 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:51,495 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:04:56,497 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:00,327 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:05:00,327 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:05:00,328 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:05:02,485 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:07,486 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:12,487 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:15,329 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:05:15,329 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:05:15,330 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:05:15,454 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:05:15,523 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:05:17,525 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:17,868 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:05:22,527 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:27,528 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:30,328 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:05:30,328 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:05:30,329 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:05:33,449 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:38,450 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:43,451 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:45,329 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:05:45,330 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:05:45,331 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:05:45,506 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:05:45,573 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:05:47,883 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:05:48,576 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:53,577 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:05:58,578 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:00,328 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:06:00,329 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:06:00,330 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:06:04,500 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:09,501 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:14,503 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:15,328 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:06:15,329 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:06:15,329 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:06:15,495 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:06:20,497 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:25,498 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:30,330 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:06:30,330 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:06:30,331 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:06:31,415 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:36,417 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:41,418 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:45,328 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-24 18:06:45,329 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-24 18:06:45,336 DEBUG   SenderThread:16326 [sender.py:send_request():409] send_request: stop_status
+2024-02-24 18:06:45,484 DEBUG   SenderThread:16326 [sender.py:send():382] send: stats
+2024-02-24 18:06:45,555 ERROR   FileStreamThread:16326 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/kimkj/cross-correlation/x58kl2d9/file_stream
+NoneType: None
+2024-02-24 18:06:46,557 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:47,913 INFO    Thread-25 :16326 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/kjk/Documents/Workspace/NeuralNetfromScratch/src/models/wandb/run-20240224_174311-x58kl2d9/files/output.log
+2024-02-24 18:06:51,558 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
+2024-02-24 18:06:56,559 DEBUG   HandlerThread:16326 [handler.py:handle_request():146] handle_request: status_report
